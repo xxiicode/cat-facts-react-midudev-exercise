@@ -1,3 +1,5 @@
+import { useState, useEffect } from 'react'
+
 export const useCats = () => {
     const cat_fact_endpoint = 'https://catfact.ninja/fact'
     const gigphy_endpoint = 'https://api.giphy.com/v1/gifs/search'
